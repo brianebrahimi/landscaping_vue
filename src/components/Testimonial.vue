@@ -37,4 +37,11 @@ export default {
     i {
         font-size: xxx-large;
     }
+
+    @media screen and (max-width: 499px) {
+        .lead {
+        padding: 0% 0%;
+        font-size: x-large;
+    }
+    }
 </style>

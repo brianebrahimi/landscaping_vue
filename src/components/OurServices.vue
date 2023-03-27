@@ -1,5 +1,5 @@
 <template>
-    <div class="container p-5 mt-5">
+    <div class="container p-sm-5 mt-5">
         <div class="row text-center">
             <h1 class="pb-3">Our Services</h1>
             <hr class="horizontal-divider">
@@ -52,10 +52,18 @@
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 500px) and (max-width: 991px) {
     img {
         height: 400px;
         width: 400px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    img {
+        height: 300px;
+        width: 300px;
         object-fit: cover;
     }
 }

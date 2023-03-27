@@ -20,7 +20,7 @@ let photo = minooPicture;
                         <h1 class="ps-3 logo-font">Sill Landscapes</h1>
                     </div>
                 </div>
-                <div class="row lead p-5">
+                <div class="row lead p-sm-5">
                     <p>We are a small business that offers a range of services related to designing,
                         constructing, and maintaining outdoor spaces. Our services include landscaping
                         design, artificial turf installation, irrigation systems, and hardscaping (e.g.
@@ -87,4 +87,11 @@ let photo = minooPicture;
     display: flex;
     justify-content: center;
     align-items: center;
-}</style>
+}
+
+@media screen and (max-width: 400px) {
+    .banner-card {
+        border-radius: 0px 0px 0px 0px;
+    }
+}
+</style>

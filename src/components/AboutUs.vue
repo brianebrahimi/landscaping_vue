@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid">
-        <div class="row p-md-5 p-5 justify-content-center">
+        <div class="row p-md-5 p-sm-5 justify-content-center">
             <div class="col-lg-4 col-md-5 py-4 text-black pe-lg-5">
                 <div class="row py-2"><small>ABOUT US</small></div>
                 <div class="row py-2"><div class="lead">We are a family owned and operated local business, and we take pride in our work.</div></div>

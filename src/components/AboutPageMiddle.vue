@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="col py-5 text-center">
-            <div class="py-4 row large-text justify-content-center"><div class="col-8">We’re a highly collaborative and supportive team, coming together on every project to ensure our clients get the very best result.</div></div>
+            <div class="py-4 row large-text justify-content-center"><div class="col-sm-8">We’re a highly collaborative and supportive team, coming together on every project to ensure our clients get the very best result.</div></div>
             <div class="py-5 row justify-content-center"><img class="middle-img" src="@/assets/images/about_us/image_middle.jpg" alt=""></div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 px-5 px-lg-4">
@@ -33,5 +33,12 @@
 
     .container-fluid {
         background-color: rgb(233, 255, 233);
+    }
+
+    @media screen and (max-width: 499px) {
+        .middle-img {
+        height: auto;
+        width: 400px;
+    }
     }
 </style>

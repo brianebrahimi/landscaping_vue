@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid p-5">
+    <div class="container-fluid p-sm-5">
         <div class="row justify-content-center">
             <div class="col-md-6 col text-center">
                 <div class="pt-5 pb-4 questions">QUESTIONS?</div>

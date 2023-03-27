@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light px-5 py-3">
+    <nav class="navbar navbar-expand-lg navbar-light px-sm-5 py-3">
         <div class="container-fluid">
             <router-link style="text-decoration: none; display: flex;" to="/"><img src="@/assets/images/logo.png" class="navbar-brand" height="60" alt="logo"><p class="ps-2 logo-font">Sill Landscapes</p></router-link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -24,7 +24,17 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue';
 
+onMounted(() => {
+    let navbarLinks = document.querySelectorAll('li');
+    console.log(navbarLinks);
+    for (let i = 0; i < navbarLinks.length; i++) {
+        navbarLinks[i].addEventListener('click', () => {
+            document.querySelector('.navbar-collapse').classList.remove('show');
+        })
+    }
+})
 </script>
 
 <style lang="scss" scoped>

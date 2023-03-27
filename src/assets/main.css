@@ -1,0 +1,9 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+.logo-font {
+    display: inline;
+    color: #009b64;
+    font-size: 40px;
+    font-family: 'League Gothic', sans-serif;
+}

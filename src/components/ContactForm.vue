@@ -117,7 +117,7 @@ async function checkForm() {
 
 async function sendForm() {
     const result = await fetch("https://www.b-rian.com/emailer/contact/", {
-        signal: Timeout(6).signal,
+        signal: Timeout(10).signal,
         method: "post",
         headers: {
             "Content-Type": "application/json"

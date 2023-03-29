@@ -116,7 +116,7 @@ async function checkForm() {
 }
 
 async function sendForm() {
-    const result = await fetch("http://b-rian.com/emailer/contact/", {
+    const result = await fetch("http://b-rian.com/emailer/contact", {
         signal: Timeout(6).signal,
         method: "post",
         headers: {

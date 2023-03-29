@@ -160,6 +160,10 @@ async function sendForm() {
     font-size: 30px;
 }
 
+.toast {
+    color: white;
+}
+
 .loader {
     border: 4px solid #f3f3f3;
     /* Light grey */

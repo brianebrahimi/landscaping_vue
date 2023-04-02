@@ -4,7 +4,7 @@
             <div class="col-md py-3">
                 <div class="row large-font py-4 justify-content-center justify-content-md-start">You can find us at</div>
                 <div class="row py-1 justify-content-center justify-content-md-start">EMAIL</div>
-                <div class="row pt-1 pb-5 justify-content-center justify-content-md-start">SillLandscapes@gmail.com</div>
+                <div class="row pt-1 pb-5 justify-content-center justify-content-md-start">info@sill.one</div>
                 <div class="row py-1 justify-content-center justify-content-md-start">PHONE NUMBER</div>
                 <div class="row pt-1 pb-5 justify-content-center justify-content-md-start">408-355-8455</div>
                 <div class="row py-1 justify-content-center justify-content-md-start">LOCATION</div>

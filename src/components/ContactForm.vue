@@ -6,7 +6,7 @@
                 <div class="row py-1 justify-content-center justify-content-md-start">EMAIL</div>
                 <div class="row pt-1 pb-5 justify-content-center justify-content-md-start">info@sill.one</div>
                 <div class="row py-1 justify-content-center justify-content-md-start">PHONE NUMBER</div>
-                <div class="row pt-1 pb-5 justify-content-center justify-content-md-start">408-355-8455</div>
+                <div class="row pt-1 pb-5 justify-content-center justify-content-md-start">619-376-6427</div>
                 <div class="row py-1 justify-content-center justify-content-md-start">LOCATION</div>
                 <div class="row pt-1 pb-5 justify-content-center justify-content-md-start">La Jolla, CA,
                     92037</div>
